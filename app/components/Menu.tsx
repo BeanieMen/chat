@@ -23,9 +23,6 @@ export function MenuDropDown() {
         <DropdownMenuItem onClick={() => window.location.href = "/"}>
           Home
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => window.location.href = "/about"}>
-          About me
-        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

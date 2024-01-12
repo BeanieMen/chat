@@ -3,6 +3,11 @@ const nextConfig = {
   distDir: "./out",
   images: {
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'static.thenounproject.com',
+        port: '',
+      }
     ],
   },
 };
