@@ -10,6 +10,7 @@
     "format": "prettier --write * "
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.12",
     "@portabletext/react": "^3.0.11",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
@@ -29,13 +30,15 @@
     "styled-components": "^6.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
-    "turbo": "^1.12.5"
+    "turbo": "^1.12.5",
+    "ws": "^8.16.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18",
+    "@types/ws": "^8.5.10",
     "autoprefixer": "^10.0.1",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.1.3",
